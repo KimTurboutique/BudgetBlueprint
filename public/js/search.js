@@ -45,5 +45,5 @@ function calculateDifference(city1, city2) {
 
 document.querySelector('#searchbtn').addEventListener('click', SearchHandler);
 
-
+const { Chart } = await import('chart.js');
 
