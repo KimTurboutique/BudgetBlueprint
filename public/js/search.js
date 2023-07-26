@@ -25,7 +25,7 @@ const SearchHandler = async (event) => {
       button.textContent = 'Login or Create an Account to save your results!';
 
       button.addEventListener('click', () => {
-        window.location.href = 'http://localhost:3001/login'
+        window.location.href = 'http://localhost:3001/login.html'
       });
 
       resultDiv.appendChild(button);
